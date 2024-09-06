@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(20,112,175,255);
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.me a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.me{
+    margin-left: 20px ;
+}
+.otherpages a:hover{
+    color: blueviolet;
+}
+.otherpages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    color: white;
+    gap: 20px;
+        
+}
+
+img{
+    border-radius: 100%;
+    height: 450px;
+    width: 350px;
+}
+.ptopleft{
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.ptop{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.ptopright{
+    font-size: xx-large;
+    width: 800px;
+}
+.ptopright h1{
+    line-height: 90px;
+}
+.pbottom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.pbottomright{
+    margin-left: 100px;
+    width: 600px;
+}
+.pbottomleft{
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    width: 250px;
+}
+.intro{
+    margin-left: 100px;
+}
+.otherpages a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+header ul{
+    list-style: none;
+}
+.pbottomright{
+    line-height: 30px;
+}
+.icons a:hover{
+    color: white;
+}
